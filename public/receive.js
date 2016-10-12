@@ -8,7 +8,7 @@ function setup() {
   textFont('Roboto Mono'); 
 
   //work on the web!!!!!!!!!!!!
- socket = io.connect('https://tranquil-ravine-39783.herokuapp.com/');
+ socket = io.connect('https://obscure-headland-15461.herokuapp.com/');
   
  //work on your localhost!!!!!!!!!!!  
  // socket = io.connect('localhost:3000')
@@ -39,7 +39,7 @@ function draw() {
 
 function navigate(){
 	console.log("click came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	textAlign(CENTER);
 	fill(255);
@@ -48,7 +48,7 @@ function navigate(){
 
 function fragment(){
 	console.log("click 2 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -57,7 +57,7 @@ function fragment(){
 
 function blueforms(){
 	console.log("click 3 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -66,7 +66,7 @@ function blueforms(){
 
 function particle(){
 	console.log("click 3 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -75,7 +75,7 @@ function particle(){
 
 function modify(){
 	console.log("click 2 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -84,7 +84,7 @@ function modify(){
 
 function trace(){
 	console.log("click 2 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -93,7 +93,7 @@ function trace(){
 
 function submit(){
 	console.log("click 2 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -102,7 +102,7 @@ function submit(){
 
 function windows(){
 	console.log("click 2 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(200);
 	fill(255);
 	textAlign(CENTER)
@@ -111,7 +111,7 @@ function windows(){
 
 function collect(){
 	console.log("click 2 came through");
-	background(57, 109, 132);
+	background(97, 52, 127);
 	textSize(300);
 	fill(255);
 	textAlign(CENTER)

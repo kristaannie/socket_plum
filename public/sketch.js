@@ -47,7 +47,7 @@ function setup(){
   createCanvas(screen.width, screen.height);
 
   // for working on the web! 
-  socket = io.connect('https://tranquil-ravine-39783.herokuapp.com/');
+  socket = io.connect('https://obscure-headland-15461.herokuapp.com/');
 
   //for working on localhost! 
   // socket = io.connect('localhost:3000');
@@ -88,7 +88,7 @@ function draw(){
 	var row2 = windowHeight * (2/4);
 	var row3 = windowHeight * (3/4);
 	
-	background(57, 109, 132);
+	background(97, 52, 127);
 
 
 
