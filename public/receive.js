@@ -40,7 +40,7 @@ function draw() {
 function navigate(){
 	console.log("click came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	textAlign(CENTER);
 	fill(255);
 	text("NAVIGATE", windowWidth/2, windowHeight/2);
@@ -50,7 +50,7 @@ function navigate(){
 function fragment(){
 	console.log("click 2 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("FRAGMENT", windowWidth/2 + change, windowHeight/2);
@@ -60,7 +60,7 @@ function fragment(){
 function blueforms(){
 	console.log("click 3 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("BLUEFORMS", windowWidth/2, windowHeight/2);
@@ -70,7 +70,7 @@ function blueforms(){
 function particle(){
 	console.log("click 3 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("PARTICLE", windowWidth/2, windowHeight/2);
@@ -80,7 +80,7 @@ function particle(){
 function modify(){
 	console.log("click 2 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("MODIFY", windowWidth/2, windowHeight/2);
@@ -90,7 +90,7 @@ function modify(){
 function trace(){
 	console.log("click 2 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("TRACE", windowWidth/2, windowHeight/2);
@@ -100,7 +100,7 @@ function trace(){
 function submit(){
 	console.log("click 2 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("SUBMIT", windowWidth/2, windowHeight/2);
@@ -110,7 +110,7 @@ function submit(){
 function windows(){
 	console.log("click 2 came through");
 	background(97, 15, 109);
-	textSize(200);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("WINDOWS", windowWidth/2, windowHeight/2);
@@ -120,7 +120,7 @@ function windows(){
 function collect(){
 	console.log("click 2 came through");
 	background(97, 15, 109);
-	textSize(300);
+	textSize(220);
 	fill(255);
 	textAlign(CENTER)
 	text("COLLECT", windowWidth/2, windowHeight/2 - 100);
