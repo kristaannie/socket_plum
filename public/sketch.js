@@ -88,7 +88,7 @@ function draw(){
 	var row2 = windowHeight * (2/4);
 	var row3 = windowHeight * (3/4);
 	
-	background(97, 52, 127);
+	background(97, 15, 109);
 
 
 
@@ -133,7 +133,7 @@ function draw(){
 	// c1r1.name();
 	
 
-	var c2r1 = new wordButton (collumn2, row1, 160, 10, 10, 40, "fragment");
+	var c2r1 = new wordButton (collumn2, row1, 135, 10, 10, 40, "fragment");
 	c2r1.display();
 	// c2r1.name();
 
@@ -185,13 +185,17 @@ function draw(){
 			rectMode(CORNER);
 			fill(0, a);
 		    rect(0, 0, windowWidth, windowHeight);
+		    //fountain
 			of.Draw();
 		    of.Create();
 		  	of.Step();
 		    noStroke();
 			fill(255);
-			// textSize(16);
-			// wordButton.buttonSelect();
+			//word
+			textAlign(CENTER);
+			textSize(40 + change);
+			fill(200, a -100);
+			text("((TRANSMITTING))", windowWidth/2, windowHeight/2 + 20);
 
 		    }
 	    
@@ -238,7 +242,7 @@ function ellipseButton(x,y,w,h, name, callback){
 		callback(hit, name);
 		console.log("got here")
 		isHit = true;
-		setTimeout(stop, 4000);
+		setTimeout(stop, 90000);
 		function stop () {
 		  	isHit = false;
 		  	counter = 0;
